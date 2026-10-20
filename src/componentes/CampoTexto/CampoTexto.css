@@ -1,0 +1,25 @@
+.campo-texto{
+    margin: 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.campo-texto label {
+    padding-right: 16px;
+    font-size: 24px;
+}
+
+.campo-texto input {
+    align-items: center;
+    border-radius: 16px;
+    background-color: #D2D2D2;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    width: 70%;
+    height: 70%;
+    border: none;
+    font-size: 16px;
+    padding: 16px;
+    box-sizing: border-box;
+    
+}

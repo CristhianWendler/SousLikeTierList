@@ -1,0 +1,17 @@
+.botao{
+    background-color: #7D5C48;
+    border-radius: 10px;
+    width: 90px;
+    height: 30px;
+    padding: 4px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'ITC Eras Std';
+    
+}
+
+.botao:hover {
+    color: #494949;
+}

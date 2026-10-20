@@ -1,0 +1,29 @@
+.lista-suspensa label{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: white;
+
+}
+
+.lista-suspensa select {
+    display: flex;
+    justify-content: end;
+    background-color: #7D5C48;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    font-size: 14px;
+    padding: 24px;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'ITC Eras Std';
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+.lista-suspensa{
+    margin: 16px 0;
+    color: white;
+}

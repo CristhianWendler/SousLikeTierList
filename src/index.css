@@ -1,0 +1,63 @@
+body {
+  margin: 0 ;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(imagens/Teste1.png);
+  background-repeat: repeat-y;
+  background-size: 100%; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.linha{
+  margin: 8px 35%;
+  border-bottom: 1.5px solid white ;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  
+}
+/* Container do header */
+.header {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  background-color: #111;
+  background: transparent;
+}
+
+/* Botões de navegação */
+.nav-buttons {
+  position:absolute;
+  z-index: 10;
+  display: flex;
+  right: 100px;
+  gap: 12px;
+}
+
+/* Estilo base dos links */
+.nav-link {
+  position: relative;
+  padding: 8px 16px;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+/* Hover */
+.nav-link:hover {
+  color: #fff;
+  background-color: #333;
+}
+
+/* Link ativo */
+.nav-link.active {
+  color: #fff;
+  background-color: #585858; /* azul destaque */
+}
