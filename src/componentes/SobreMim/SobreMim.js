@@ -133,7 +133,8 @@ export default function SobreMim() {
       </div>
       </div>
       <div className="StatusContainer">
-          <img src="/imagens/FotoPerfil.jpg" alt="Imagem do Perfil"
+          <img src={`${process.env.PUBLIC_URL}/imagens/FotoPerfil.jpg`}
+          alt="Imagem do Perfil"
         style={{height:700, width:400}} />
       <ExperienceCircle
         level={16}

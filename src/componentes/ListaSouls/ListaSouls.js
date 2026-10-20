@@ -12,6 +12,7 @@ import {CSS} from "@dnd-kit/utilities";
 
 
 export default function ListaSouls() {
+  const publicUrl = process.env.PUBLIC_URL;
   const tierListRef = useRef(null);
   const [imagemGerada, setImagemGerada] = useState(null);
   const [mostrarOverlay, setMostrarOverlay] = useState(false);
@@ -90,7 +91,7 @@ export default function ListaSouls() {
     return chefe ? chefe.descricao : "";
   };
   const descricao = descBoss(boss);
-  const imagem = "/imagens/" + jogo + "/" + boss + ".jpg";
+  const imagem = `${publicUrl}/imagens/${jogo}/${boss}.jpg`;
   
   const [mensagem, setMensagem] = useState("");
 
@@ -479,7 +480,7 @@ const sensors = useSensors(
                   <audio
                     ref={audioRef}
                     // controls
-                    src={"music/" + boss + ".mp3"}
+                    src={`${publicUrl}/music/${boss}.mp3`}
                     type="audio/mp3"
                     onLoadedMetadata={onLoadedMetadata}
                     onTimeUpdate={onTimeUpdate}
@@ -541,7 +542,7 @@ const sensors = useSensors(
               height: "30.385em",
               alignItems: "center",
               borderRadius: "4px",
-              backgroundImage: `url('/imagens/${jogo ? jogo : 'null'}.png'), radial-gradient(#000000, #00000081)`,
+              backgroundImage: `url('${publicUrl}/imagens/${jogo || 'null'}.png'), radial-gradient(#000000, #00000081)`,
               backgroundRepeat: "no-repeat",
               backgroundSize: "auto",
               padding: "36px",
@@ -550,7 +551,7 @@ const sensors = useSensors(
 
             >
               <img
-                src={`/imagens/${jogo}/${boss}.jpg`}
+                src={`${publicUrl}/imagens/${jogo}/${boss}.jpg`}
                 alt="BossName"
                 style={{
                   width: "20.5em",
