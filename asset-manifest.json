@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/SousLikeTierList/static/css/main.7bd38f5c.css",
-    "main.js": "/SousLikeTierList/static/js/main.335d458c.js",
+    "main.js": "/SousLikeTierList/static/js/main.4f140e31.js",
     "static/media/Fundo_sobremim2.jpg": "/SousLikeTierList/static/media/Fundo_sobremim2.8de4db4940eb709c6603.jpg",
     "static/media/Teste1.png": "/SousLikeTierList/static/media/Teste1.a11d1a12fcafaeefbdb7.png",
     "index.html": "/SousLikeTierList/index.html",
     "main.7bd38f5c.css.map": "/SousLikeTierList/static/css/main.7bd38f5c.css.map",
-    "main.335d458c.js.map": "/SousLikeTierList/static/js/main.335d458c.js.map"
+    "main.4f140e31.js.map": "/SousLikeTierList/static/js/main.4f140e31.js.map"
   },
   "entrypoints": [
     "static/css/main.7bd38f5c.css",
-    "static/js/main.335d458c.js"
+    "static/js/main.4f140e31.js"
   ]
 }
